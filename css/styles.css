@@ -537,17 +537,12 @@ a {
   margin: 0 auto;
 }
 
-p.sub-btn{
-margin-bottom: 16px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #ffffff; }
+
 
 .footer-container {
   display: flex;
   align-items: baseline;
+  
 }
 
 .footerlogoandp {
@@ -636,5 +631,19 @@ svg.social-icon {
   width: 24px;
   height: 24px;
   fill: var(--icon-color, #f4f4fd);
+  display: flex;
+}
+
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+
+.form-style{
   display: flex;
 }
